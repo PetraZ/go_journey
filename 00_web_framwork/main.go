@@ -18,5 +18,6 @@ func main() {
 		// call the function to spin up the server
 		fx.Invoke(server.NewServer),
 	)
+	// run calls the invoke functions
 	app.Run()
 }
