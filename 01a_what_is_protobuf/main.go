@@ -30,8 +30,8 @@ func jsonMarshal() {
 // protoc --go_out=. person.proto
 func main() {
 	yi := &Person{
-		Name: "yi",
-		Age:  10,
+		Name: "yiang郑",
+		Age:  24,
 	}
 	_ = protoMarshal(yi)
 	/*
